@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context=".ui.SignIn">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_launcher_background"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in_as_mess_member"
+        android:textColor="@color/logInText"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image"
+        app:layout_constraintVertical_bias="0.00999999" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.04000002">
+
+
+        <RelativeLayout
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/sectorinput">
+
+            <EditText
+                android:id="@+id/userEmail"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_35ssp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:hint="@string/members_email"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/logInText"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/_13ssp" />
+        </RelativeLayout>
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_5sdp" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/sectorinput">
+
+            <EditText
+                android:id="@+id/userPass"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_35ssp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:hint="@string/member_s_password"
+                android:inputType="textPassword"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/logInText"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/_13ssp" />
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_23sdp" />
+
+        <Button
+            android:id="@+id/logInBtn"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/log_in"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14ssp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp" />
+
+        <TextView
+            android:id="@+id/forgotPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/forgot_your_password"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_25sdp" />
+
+        <RelativeLayout
+            android:id="@+id/newUserBtn"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/sectorinput">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/not_yet_resistered_sign_up"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
