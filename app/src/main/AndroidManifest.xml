@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MealManager">
         <activity
+            android:name=".ui.MessCreation"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.SignUp"
             android:exported="false" />
         <activity

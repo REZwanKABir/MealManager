@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Background"
+    tools:context=".ui.MessCreation">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_30sdp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_gravity="center"
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/logInText"
+        android:textSize="@dimen/_14ssp"
+        android:text="@string/create_your_mess_now"
+        android:layout_gravity="center"
+        android:padding="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_marginStart="@dimen/_18sdp"
+        android:padding="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_mess_name"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="@color/white" />
+    <EditText
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/sectorinput"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        android:hint="@string/e_g_abz"
+        android:padding="@dimen/_10sdp"/>
+
+
+    <TextView
+        android:layout_marginStart="@dimen/_18sdp"
+        android:padding="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_new_month_title"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="@color/white" />
+    <EditText
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/sectorinput"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        android:hint="@string/e_g_feb_2022"
+        android:padding="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/you_are_member_or_manager"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:padding="@dimen/_5sdp"
+        android:textSize="@dimen/_13ssp"/>
+    <RadioGroup
+        android:layout_marginStart="@dimen/_18sdp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:checked="true"
+            android:buttonTint="@color/logInText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_am_manager"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"/>
+        <RadioButton
+            android:buttonTint="@color/logInText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_am_member"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"/>
+    </RadioGroup>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_15sdp"/>
+
+    <Button
+        android:id="@+id/messCreateBtn"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/shapeloginbutton"
+        android:text="@string/create_mess_now"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_13ssp" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="#A5A5A5"
+        android:text="@string/or"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_10sdp"/>
+
+    <Button
+        android:id="@+id/messJoinBtn"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/shapeloginbutton"
+        android:text="@string/join_mess_now"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_13ssp" />
+
+
+
+
+</LinearLayout>
