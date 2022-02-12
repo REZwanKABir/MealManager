@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Background"
+    tools:context=".ui.fragment.MoneyDeposit">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_member_s_money"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_10sdp"/>
+        <RelativeLayout
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/shapeloginbutton">
+            <ImageView
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_date_range_24"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_5sdp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2022-02-07"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13ssp"
+                android:id="@+id/depositDateBtn"/>
+        </RelativeLayout>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"/>
+        <RelativeLayout
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/sectorinput">
+
+            <EditText
+                android:id="@+id/depositAmount"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_35ssp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:hint="@string/enter_deposit_amount"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/logInText"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/_13ssp" />
+        </RelativeLayout>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_5sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_13ssp"
+            android:text="@string/select_member_who_will_deposit"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:hint="@string/member"
+            app:startIconTint="@color/logInText"
+            app:boxStrokeColor="@color/logInText"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            android:layout_height="match_parent">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:textColor="@color/logInText"
+                android:text="@string/rezwan" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"/>
+
+        <Button
+            android:id="@+id/depositSubmitBtn"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14ssp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

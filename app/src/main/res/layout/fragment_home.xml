@@ -387,6 +387,7 @@
                     app:layout_constraintTop_toTopOf="@+id/textView2" />
 
                 <androidx.recyclerview.widget.RecyclerView
+                    tools:listitem="@layout/recycleritem_bazar"
                     android:id="@+id/bazarDateRecycler"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -447,6 +448,7 @@
                     android:background="@color/line" />
 
                 <androidx.recyclerview.widget.RecyclerView
+                    tools:listitem="@layout/recycleritem_memberdetails"
                     android:id="@+id/messMemberRecycler"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

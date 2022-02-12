@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Background"
+    tools:context=".ui.fragment.AddOtherCost">
+
+    <LinearLayout
+        android:padding="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/add_other_cost"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/logInText"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:text="@string/other_cost"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"/>
+
+        <RelativeLayout
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/sectorinput">
+
+            <EditText
+                android:id="@+id/detailsOtherCost"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_35ssp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:hint="@string/others_things_name_date_ex_hand_wash_12_sept"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/logInText"
+                android:textColorHint="@color/white" />
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_8sdp"/>
+
+        <RelativeLayout
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/sectorinput">
+
+            <EditText
+                android:id="@+id/addOtherCost"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_35ssp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:hint="@string/others"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/logInText"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/_13ssp" />
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"/>
+
+        <Button
+            android:id="@+id/otherCostSubmitBtn"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14ssp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

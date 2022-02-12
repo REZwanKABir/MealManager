@@ -13,4 +13,7 @@
     <color name="inputTextStrokeColor">#444444</color>
     <color name="insideBackGroundColor">#202020</color>
     <color name="line">#2C2D2D</color>
+    <color name="separateLine">#1E1E1E</color>
+    <color name="drawerBackground2">#202020</color>
+    <color name="drawerBackground1">#2E2E2E</color>
 </resources>

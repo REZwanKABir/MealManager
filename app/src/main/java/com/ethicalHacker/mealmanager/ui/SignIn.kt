@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ethicalHacker.mealmanager.databinding.ActivitySigninBinding
+import com.ethicalHacker.mealmanager.ui.fragment.manager.MoneyDeposit
 
 class SignIn : AppCompatActivity() {
     private lateinit var binding: ActivitySigninBinding
@@ -13,7 +14,7 @@ class SignIn : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.logInBtn.setOnClickListener {
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this, MoneyDeposit::class.java))
         }
     }
 }

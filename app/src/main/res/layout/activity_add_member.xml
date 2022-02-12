@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context=".ui.AddMember">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/addMemberImage"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_background" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_5sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_new_member"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/white"
+            android:text="@string/select_member_s_role"
+            android:layout_gravity="center"/>
+
+        <androidx.slidingpanelayout.widget.SlidingPaneLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:buttonTint="@color/logInText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/manager"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+            <RadioButton
+                android:checked="true"
+                android:buttonTint="@color/logInText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/member"
+                android:textStyle="bold"/>
+        </RadioGroup>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp" />
+
+
+        <RelativeLayout
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/sectorinput">
+
+            <EditText
+                android:id="@+id/userEmail"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_35ssp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:hint="@string/add_existing_user_by_email"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/logInText"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/_13ssp" />
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"/>
+
+        <Button
+            android:id="@+id/addMessMemberBtn"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/add_in_your_mess"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14ssp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15ssp"
+            android:text="@string/or"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_10sdp"/>
+        <Button
+            android:id="@+id/addMemberCreateBtn"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/create_new_member"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

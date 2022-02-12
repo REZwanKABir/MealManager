@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/insideBackGroundColor"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/recyclerAllMemberImage"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_background" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_5sdp" />
+
+        <TextView
+            android:id="@+id/recyclerAllName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/logInText"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            tools:text="Rezwan" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/member_info"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="normal" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_5sdp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_mail_outline_24" />
+
+            <Space
+                android:layout_width="@dimen/_2sdp"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                tools:text="rezwan@gmail.com" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_5sdp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_contact_phone_24" />
+
+                <Space
+                    android:layout_width="@dimen/_2sdp"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    tools:text="Not Yet Set" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_shopping_bag_24" />
+
+                <Space
+                    android:layout_width="@dimen/_2sdp"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    tools:text="member" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_5sdp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_date_range_245" />
+
+            <Space
+                android:layout_width="@dimen/_2sdp"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/set_bazar_date"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                tools:text="20 dec " />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_15sdp" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/sectorinput">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/not_set_yet"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

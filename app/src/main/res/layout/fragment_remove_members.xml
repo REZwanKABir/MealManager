@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Background"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.RemoveMembers">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_member_name"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="@dimen/_280sdp"
+            android:hint="@string/member"
+            app:startIconTint="@color/logInText"
+            app:boxStrokeColor="@color/logInText"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            android:layout_height="match_parent">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:textColor="@color/logInText"
+                android:text="@string/rezwan" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"/>
+
+        <Button
+            android:id="@+id/removeMemberBtn"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/remove"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14ssp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_new_manager"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="@dimen/_280sdp"
+            android:hint="@string/member"
+            app:startIconTint="@color/logInText"
+            app:boxStrokeColor="@color/logInText"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            android:layout_height="match_parent">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="none"
+                android:textColor="@color/logInText"
+                android:text="@string/rezwan" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"/>
+        <Button
+            android:id="@+id/changeManager"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/change_manager"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14ssp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

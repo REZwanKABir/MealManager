@@ -12,8 +12,11 @@
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_brush_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_cast_for_education_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.2985" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_contact_phone_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_create_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_credit_card_24.xml" value="0.2985" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.2985" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_date_range_245.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_edit_245.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_fastfood_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_get_app_24.xml" value="0.2985" />
@@ -24,29 +27,52 @@
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_monetization_on_24.xml" value="0.2985" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_monetization_on_245.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_nights_stay_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_notifications_active_24.xml" value="0.2985" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2985" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_person_pin_2455.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_rate_review_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.2985" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_shopping_bag_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/ic_baseline_support_agent_24.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/inputbackground.xml" value="0.294" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/sectorinput.xml" value="0.294" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/shape_profilefrag.xml" value="0.2985" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/shapebazar.xml" value="0.2985" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/shapeinputsector.xml" value="0.294" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/shapeloginbutton.xml" value="0.294" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/drawable/strokecircle.xml" value="0.2985" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/activity_add_meal.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/activity_add_member.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/activity_add_other_cost.xml" value="0.3625" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/activity_mess_creation.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/activity_money_deposit.xml" value="0.2920634920634921" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/activity_remove_member.xml" value="0.3625" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/activity_sign_up.xml" value="0.3625" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/activity_signin.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/dialog_deposit_success.xml" value="0.3625" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/dialog_howtouse.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/dialog_mealsuccess.xml" value="0.3625" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/dialog_nointernetconnection.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/dialog_othercostsuccess.xml" value="0.3625" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/dialog_welcometomessmanager.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/drawerlayout.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/dropdown_item.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/fragment_add_meal.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/fragment_add_other_cost.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/fragment_all_members.xml" value="0.3625" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/fragment_money_deposit.xml" value="0.3625" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/fragment_notification.xml" value="0.3625" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/fragment_profile.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/fragment_remove_members.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/recycleritem_allmembers.xml" value="0.3625" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/recycleritem_bazar.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/layout/recycleritem_memberdetails.xml" value="0.3625" />
         <entry key="..\:/Users/rezre/AndroidStudioProjects/MealManager/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
       </map>
     </option>

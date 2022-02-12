@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MealManager">
         <activity
+            android:name=".ui.fragment.manager.RemoveMember"
+            android:exported="false" />
+        <activity
+            android:name=".ui.fragment.manager.AddOtherCost"
+            android:exported="false" />
+        <activity
+            android:name=".ui.fragment.manager.AddMeal"
+            android:exported="false" />
+        <activity
+            android:name=".ui.fragment.manager.MoneyDeposit"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AddMember"
+            android:exported="false" />
+        <activity
             android:name=".ui.MessCreation"
             android:exported="false" />
         <activity
