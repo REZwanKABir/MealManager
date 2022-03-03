@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "348730950483",
+    "project_id": "mealmanager-7aa7a",
+    "storage_bucket": "mealmanager-7aa7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348730950483:android:6da05e76f249a29cb6d7a6",
+        "android_client_info": {
+          "package_name": "com.ethicalHacker.mealmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348730950483-8p4ompe1avlfp4c4rf6m2e8e405if6vo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ethicalHacker.mealmanager",
+            "certificate_hash": "9c3471f8b20bdab50dde17e5963fc40efb29776c"
+          }
+        },
+        {
+          "client_id": "348730950483-uoh9hlsgik35b61ibtrlf6lj7ionu37b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLsBcPShLorf_Pe0xIESkWZKseyyn72yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348730950483-uoh9hlsgik35b61ibtrlf6lj7ionu37b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,19 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.MealManager">
-        <activity
-            android:name=".ui.fragment.manager.RemoveMember"
-            android:exported="false" />
-        <activity
-            android:name=".ui.fragment.manager.AddOtherCost"
-            android:exported="false" />
-        <activity
-            android:name=".ui.fragment.manager.AddMeal"
-            android:exported="false" />
-        <activity
-            android:name=".ui.fragment.manager.MoneyDeposit"
-            android:exported="false" />
         <activity
             android:name=".ui.AddMember"
             android:exported="false" />
